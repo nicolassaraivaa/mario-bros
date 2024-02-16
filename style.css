@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+header img{
+    height: 60px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover{
+    color: #CE1111;
+    font-size: 26px;
+    transition: 0.5s  ease-in-out;
+}
+
+main{
+    padding: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-left{
+    width: 40%;
+    color: white;
+
+}
+
+.logo{
+    height: 200px;
+}
+
+button{
+    color: white;
+    background:#CE1111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.imagem-mario-luigi{
+    height: 500px;
+}
+
+.box-video{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video{
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.sombra{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.whatsapp img{
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.form-fale-conosco{
+    background: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 0.7s ease;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color:black ;
+}
+
+textarea{
+    height: 100px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color:black
+}
+
+.mascara-form{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+@media (max-width:1100px) {
+    p{
+        display: none;
+    }  
+
+    main{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .box-right{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box-right{
+        wi
+    }
+}
