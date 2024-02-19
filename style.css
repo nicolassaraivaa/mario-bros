@@ -135,23 +135,5 @@ textarea{
 }
 
 @media (max-width:1100px) {
-    p{
-        display: none;
-    }  
-
-    main{
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .box-right{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .box-right{
-        wi
-    }
+    
 }
